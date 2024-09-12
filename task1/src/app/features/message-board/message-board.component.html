@@ -1,0 +1,31 @@
+<app-layout>
+  <router-outlet></router-outlet>
+</app-layout>
+
+<div
+  class="w-full min-h-dvh flex-col justify-center items-center bg-stone-800/50 absolute top-0 left-0"
+  [ngClass]="{
+    flex: messageBoardService.overlayVisible(),
+    hidden: !messageBoardService.overlayVisible()
+  }"
+>
+  <div
+    class="loading flex justify-center items-center gap-4 mt-4 transition-[height, width] duration-300"
+  >
+    <div
+      class="h-4 w-4 sm:h-6 sm:w-6 rounded-full bg-yellow-600 animate-pulse"
+    ></div>
+    <div
+      class="h-4 w-4 sm:h-6 sm:w-6 rounded-full bg-yellow-600 animate-pulse"
+    ></div>
+    <div
+      class="h-4 w-4 sm:h-6 sm:w-6 rounded-full bg-yellow-600 animate-pulse"
+    ></div>
+    <div
+      class="h-4 w-4 sm:h-6 sm:w-6 rounded-full bg-yellow-600 animate-pulse"
+    ></div>
+    <div
+      class="h-4 w-4 sm:h-6 sm:w-6 rounded-full bg-yellow-600 animate-pulse"
+    ></div>
+  </div>
+</div>
