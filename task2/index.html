@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Haven</title>
+
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+  </head>
+  <body>
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-section">
+          <div>
+            <img src="/assets/logo.png" alt="haven logo" />
+          </div>
+
+          <div>
+            <h1>Lorem ipsum dolor sit amet</h1>
+            <div class="hero-body">
+              consectetur adipiscing elit, sed do eius mod tempor incididunt ut
+              labore et dolo re magna aliqua onsectetur adipiscing elit, sed do
+              eius mod tempor incid.
+            </div>
+          </div>
+        </div>
+
+        <div class="news-section">
+          <div class="news-container">
+            <header class="news-header">News & blog</header>
+            <ul class="news-link-container">
+              <li class="news-link">
+                <a href="" class="link">
+                  KiwiSaver HomeStart grand explained
+                  <img
+                    src="assets/pale-arrow.svg"
+                    alt="arrow"
+                    class="link-arrow"
+                  />
+                </a>
+              </li>
+              <li class="news-link">
+                <a href="" class="link">
+                  What's happening in the property market?
+                  <img
+                    src="assets/pale-arrow.svg"
+                    alt="arrow"
+                    class="link-arrow"
+                /></a>
+              </li>
+              <li class="news-link">
+                <a href="" class="link">
+                  Trust law reform
+                  <img
+                    src="assets/pale-arrow.svg"
+                    alt="arrow"
+                    class="link-arrow"
+                  />
+                </a>
+              </li>
+              <li class="news-link">
+                <a href="" class="link">
+                  Tax update -Simplification of taxes, foreign...<img
+                    src="assets/pale-arrow.svg"
+                    alt="arrow"
+                    class="link-arrow"
+                /></a>
+              </li>
+              <li class="news-link">
+                <a href="" class="link"
+                  >What do the new lending rules mean?<img
+                    src="assets/pale-arrow.svg"
+                    alt="arrow"
+                    class="link-arrow"
+                /></a>
+              </li>
+              <li class="news-link">
+                <a href="" class="link"
+                  >How will the Reserve Bank respond to...<img
+                    src="assets/pale-arrow.svg"
+                    alt="arrow"
+                    class="link-arrow"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section class="services">
+        <header class="services-header">
+          <nav>
+            <ul>
+              <li>
+                <a href="" class="service-link">Book keeping & payroll</a>
+              </li>
+              <li>
+                <a href="" class="service-link">Financial & GST</a>
+              </li>
+              <li>
+                <a href="" class="service-link active">KiwiSaver advice</a>
+              </li>
+              <li>
+                <a href="" class="service-link">Insuring people</a>
+              </li>
+              <li><a href="" class="service-link">Tax & business advice</a></li>
+              <li><a href="" class="service-link">Trustee services</a></li>
+              <li><a href="" class="service-link">Mortgage advice</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="services-content">
+          <div class="services-media">
+            <img src="assets/video-img.png" alt="" />
+          </div>
+          <div class="content">
+            <div class="title">Why have a financial adviser?</div>
+            <div class="body">
+              <p>
+                Haven was created out of the need to simple do things better.
+                With specialist advisers across a range of financial services,
+                we will offer you the best, practical advice for your unique
+                situation.
+              </p>
+              <p>
+                Our financial advisers span the north and south island making us
+                conveniently positioned whenever you need us.
+              </p>
+            </div>
+            <a href="" class="link"
+              ><span class="link-text">Learn more about our advisers</span>
+              <span class="link-arrow-container">
+                <img
+                  src="assets/blue-arrow.svg"
+                  alt="arrow"
+                  class="link-arrow" /></span
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact">
+        <div class="contact-form">
+          <div class="contact-form-container">
+            <div class="title">Contact us today</div>
+            <p class="body">
+              Brief intro paragraph about this section. Bis porepelent quam nuim
+              ut raeptam facillo riberum sitatur aut properaiata volorer.
+            </p>
+            <form id="contactForm">
+              <input
+                class="form-field"
+                type="text"
+                name="fullName"
+                placeholder="Full name *"
+              />
+              <input
+                class="form-field"
+                type="text"
+                name="emailAddress"
+                placeholder="Email address *"
+              />
+              <input
+                class="form-field"
+                type="text"
+                name="contactNumber"
+                placeholder="Contact number"
+              />
+
+              <select name="booking" id="booking" class="form-field">
+                <option value="" disabled selected>Book a meeting</option>
+              </select>
+              <select name="preferredDay" id="preferredDay" class="form-field">
+                <option value="" disabled selected>Preferred day*</option>
+                <option value="monday">Monday</option>
+                <option value="tuesday">Tuesday</option>
+                <option value="wednesday">Wednesday</option>
+                <option value="thursday">Thursday</option>
+                <option value="friday">Friday</option>
+              </select>
+              <select
+                name="preferredTime"
+                id="preferredTime"
+                class="form-field"
+              >
+                <option value="" disabled selected>Preferred time *</option>
+                <option value="1">9AM - 10AM</option>
+                <option value="2">10AM - 11AM</option>
+                <option value="3">11AM - 12PM</option>
+                <option value="4">1PM - 2PM</option>
+                <option value="5">2PM - 3PM</option>
+                <option value="6">3PM - 4PM</option>
+              </select>
+              <textarea
+                name="message"
+                id=""
+                placeholder="Message"
+                class="form-field"
+              ></textarea>
+              <div class="form-actions">
+                <button class="submit-btn" disabled id="contactSubmit">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="contact-details">
+          <div class="contact-us-container">
+            <header class="contact-us-header">Contact us</header>
+            <ul class="contacts-list-container">
+              <li class="contact">
+                <img
+                  src="assets/icons/location.svg"
+                  class="contact-icon"
+                  alt=""
+                />
+                <a href="">Find an adviser</a>
+              </li>
+              <li class="contact">
+                <img
+                  src="assets/icons/messages.svg"
+                  alt=""
+                  class="contact-icon"
+                />
+                <a href="">Talk to an accountant</a>
+              </li>
+              <li class="contact">
+                <img src="assets/icons/home.svg" alt="" class="contact-icon" />
+                <a href="">Talk to a mortgage broker</a>
+              </li>
+              <li class="contact">
+                <img src="assets/icons/call.svg" alt="" class="contact-icon" />
+                0800 700 699
+              </li>
+              <li class="contact">
+                <img src="assets/icons/email.svg" alt="" class="contact-icon" />
+                reception@havenadvisers.co.nz
+              </li>
+
+              <li class="contact">
+                <img
+                  src="assets/icons/facebook.svg"
+                  alt=""
+                  class="contact-icon"
+                />
+                <a href="">Be a part of our Facebook community</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+      <footer class="footer">
+        <form class="newsletter-section" id="newsLetterForm">
+          <div class="title">SIGN UP TO OUR NEWSLETTER</div>
+
+          <input type="text" name="newsFullName" placeholder="Full name" />
+          <input
+            type="text"
+            name="newsEmailAddress"
+            placeholder="Email address"
+          />
+          <button type="submit" id="newsSubmit" disabled>Submit</button>
+        </form>
+        <div class="main-footer-section">
+          <div>
+            <img src="assets/logo.png" alt="haven logo" />
+          </div>
+          <nav>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Our Services</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Testimonials</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Contact us</a></li>
+            </ul>
+          </nav>
+          <div class="contact">
+            <p>0800 700 699</p>
+            <p>receiption@havenadvisers.co.nz</p>
+          </div>
+        </div>
+
+        <div class="sub-footer-section">
+          <p>Copyright @ 2017 Haven Advisers Limited. All rights reserved.</p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="/scripts/index.js"></script>
+  </body>
+</html>
